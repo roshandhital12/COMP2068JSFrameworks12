@@ -1,0 +1,202 @@
+/* Q1: Remove default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Q2: Display HTML5 semantic elements as block */
+header,
+nav,
+main,
+section,
+article,
+footer {
+  display: block;
+}
+
+/* Q3: Body styling */
+body {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  color: #222;
+  background: url("../assets/images/dark-wood2.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+/* Q4: Container - main wrapper */
+.container {
+  width: 950px;
+  margin: 5px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Q5: Content area */
+.content {
+  line-height: 1.4em;
+  padding: 10px;
+}
+
+/* Q6: Header, Nav, and Footer */
+header,
+nav,
+footer {
+  background-color: #003333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Q7: Navigation unordered list */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+}
+
+/* Q8: Navigation list items */
+nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+/* Q9: Navigation link pseudo-classes */
+nav ul li a:link {
+  color: #e0ffff;
+  text-decoration: none;
+}
+nav ul li a:visited {
+  color: #b2d8d8;
+}
+nav ul li a:hover {
+  color: #ffcc66;
+  text-decoration: underline;
+}
+nav ul li a:active {
+  color: #ff9900;
+}
+
+/* Q10: General anchor tag */
+a {
+  color: #004d4d;
+  text-decoration: none;
+}
+
+/* Q11: Headings styling */
+h1,
+h2,
+h3 {
+  margin: 10px;
+  text-transform: uppercase;
+  color: #004d4d;
+}
+
+/* Q12: Center image class */
+.img-centre {
+  display: block;
+  margin: 5px auto;
+  padding: 2px;
+}
+
+/* Q13: Audio and video styling */
+audio,
+video {
+  display: block;
+  margin: 10px auto;
+}
+
+/* Q14: Table styling */
+table {
+  width: 800px;
+  margin: 10px auto;
+  border-collapse: collapse;
+  background-color: #f8f8f8;
+}
+
+/* Q15: Table cells */
+td,
+th {
+  border: 1px solid #999;
+  padding: 2px 5px;
+  background-color: #e6ffff;
+}
+
+/* Q16: Table header and tfoot cells */
+th,
+tfoot td {
+  text-transform: uppercase;
+  background-color: #003333;
+  color: #fff;
+}
+
+/* Q17: Definition term */
+dt {
+  font-weight: bold;
+}
+
+/* Q18: Footer styling */
+footer {
+  font-size: 80%;
+  text-align: center;
+  padding: 1px 0;
+}
+
+/* Q19: iFrame styling */
+iframe {
+  display: block;
+  margin: 10px auto;
+}
+
+/* Q20: Fieldset styling */
+fieldset {
+  width: 500px;
+  margin: 20px auto;
+  border: 2px solid #004d4d;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+/* Q21: Legend styling */
+legend {
+  font-style: italic;
+  background-color: #004d4d;
+  color: white;
+  margin: 0 10px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+/* Q22: Submit button */
+input[type="submit"],
+button[type="submit"] {
+  border: 1px solid #004d4d;
+  padding: 5px;
+  background-color: #006666;
+  color: white;
+  cursor: pointer;
+}
+
+/* Q23: Submit button hover */
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+  background-color: #009999;
+  color: #fff3e6;
+  cursor: pointer;
+}
+
+/* Restore padding for lists after universal reset */
+ul,
+ol {
+  padding-left: 40px; /* adjust if needed */
+  margin-left: 10px;
+}
+
+button {
+  border-radius: 5px;
+  font-size: 15px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Roshan Dhital" />
+    <meta name="description" content="Contact The Striped Umbrella Spa" />
+    <title>Contact Us - The Striped Umbrella</title>
+    <link
+      rel="stylesheet"
+      href="/Project/html-assignment/css_folder/style.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header>
+        <img src="assets/images/su_banner.gif" alt="Striped Umbrella Banner" />
+        <nav id="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- MAIN CONTENT -->
+      <main class="content">
+        <h2>Contact Us</h2>
+
+        <!-- Contact Form -->
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label
+              >First Name:*
+              <input
+                type="text"
+                name="firstname"
+                maxlength="25"
+                required
+              /> </label
+            ><br />
+            <label
+              >Last Name:*
+              <input
+                type="text"
+                name="lastname"
+                maxlength="25"
+                required
+              /> </label
+            ><br />
+            <label
+              >Email:*
+              <input type="email" name="email" maxlength="35" required />
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Your Message</legend>
+            <label
+              >How did you hear about us?
+              <select name="referral">
+                <option value="website" selected>Our website</option>
+                <option value="friends">Friends</option>
+                <option value="tv">TV Adv.</option>
+                <option value="other">Other</option>
+              </select> </label
+            ><br />
+
+            <label
+              >Would you like to receive updates?
+              <input type="radio" name="updates" value="yes" checked /> Yes
+              <input type="radio" name="updates" value="no" /> No </label
+            ><br />
+
+            <label
+              >Your Message:<br />
+              <textarea name="message" rows="4" cols="40"></textarea></label
+            ><br />
+            <label
+              ><input type="checkbox" />I want to receive email updates</label
+            ><br />
+            <label>
+              <button type="submit">Register</button>
+            </label>
+          </fieldset>
+        </form>
+
+        <!-- Google Map -->
+        <h3>Find Us</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1645.812422791099!2d-79.38803724354554!3d43.67255535409375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e0b64e1140d%3A0xd11156503e310196!2sSpa%20at%20Four%20Seasons%20Toronto!5e0!3m2!1sen!2sus!4v1758808751279!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </main>
+
+      <!-- FOOTER -->
+      <footer>
+        Copyright © 2023 ILAC and EFREI Paris – HTML-CSS major lab-work -
+        created by: Roshan Dhital - All rights reserved
+      </footer>
+    </div>
+  </body>
+</html>
